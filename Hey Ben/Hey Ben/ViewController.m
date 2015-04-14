@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"ben-gohlke"]]];
 
     // Construct URL to sound file
     NSString *path = [NSString stringWithFormat:@"%@/Hey Ben1 .mp3", [[NSBundle mainBundle] resourcePath]];
