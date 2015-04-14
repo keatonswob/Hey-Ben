@@ -14,6 +14,7 @@
 		5A8B11B91ADD564500849B7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B11B81ADD564500849B7F /* Images.xcassets */; };
 		5A8B11BC1ADD564500849B7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B11BA1ADD564500849B7F /* LaunchScreen.xib */; };
 		5A8B11C81ADD564600849B7F /* Hey_BenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11C71ADD564600849B7F /* Hey_BenTests.m */; };
+		5A8B11D31ADD58C700849B7F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11D21ADD58C700849B7F /* SoundManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5A8B11C11ADD564600849B7F /* Hey BenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hey BenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8B11C61ADD564600849B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8B11C71ADD564600849B7F /* Hey_BenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hey_BenTests.m; sourceTree = "<group>"; };
+		5A8B11D11ADD58C700849B7F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		5A8B11D21ADD58C700849B7F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		5A8B11AA1ADD564500849B7F /* Hey Ben */ = {
 			isa = PBXGroup;
 			children = (
+				5A8B11D11ADD58C700849B7F /* SoundManager.h */,
+				5A8B11D21ADD58C700849B7F /* SoundManager.m */,
 				5A8B11AF1ADD564500849B7F /* AppDelegate.h */,
 				5A8B11B01ADD564500849B7F /* AppDelegate.m */,
 				5A8B11B21ADD564500849B7F /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A8B11B41ADD564500849B7F /* ViewController.m in Sources */,
+				5A8B11D31ADD58C700849B7F /* SoundManager.m in Sources */,
 				5A8B11B11ADD564500849B7F /* AppDelegate.m in Sources */,
 				5A8B11AE1ADD564500849B7F /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				5A8B11CD1ADD564600849B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A8B11CE1ADD564600849B7F /* Build configuration list for PBXNativeTarget "Hey BenTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				5A8B11D01ADD564600849B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
