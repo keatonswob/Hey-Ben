@@ -14,7 +14,6 @@
 		5A8B11B91ADD564500849B7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B11B81ADD564500849B7F /* Images.xcassets */; };
 		5A8B11BC1ADD564500849B7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B11BA1ADD564500849B7F /* LaunchScreen.xib */; };
 		5A8B11C81ADD564600849B7F /* Hey_BenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11C71ADD564600849B7F /* Hey_BenTests.m */; };
-		5A8B11D31ADD58C700849B7F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11D21ADD58C700849B7F /* SoundManager.m */; };
 		D8447F341ADD693D00A71099 /* Hey Ben1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8447F281ADD693D00A71099 /* Hey Ben1.mp3 */; };
 		D8447F351ADD693D00A71099 /* Hey Ben2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8447F291ADD693D00A71099 /* Hey Ben2.mp3 */; };
 		D8447F361ADD693D00A71099 /* Hey Ben3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8447F2A1ADD693D00A71099 /* Hey Ben3.mp3 */; };
@@ -53,8 +52,6 @@
 		5A8B11C11ADD564600849B7F /* Hey BenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hey BenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8B11C61ADD564600849B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8B11C71ADD564600849B7F /* Hey_BenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hey_BenTests.m; sourceTree = "<group>"; };
-		5A8B11D11ADD58C700849B7F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
-		5A8B11D21ADD58C700849B7F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		D8447F281ADD693D00A71099 /* Hey Ben1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Ben1.mp3"; sourceTree = "<group>"; };
 		D8447F291ADD693D00A71099 /* Hey Ben2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Ben2.mp3"; sourceTree = "<group>"; };
 		D8447F2A1ADD693D00A71099 /* Hey Ben3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Ben3.mp3"; sourceTree = "<group>"; };
@@ -108,8 +105,6 @@
 		5A8B11AA1ADD564500849B7F /* Hey Ben */ = {
 			isa = PBXGroup;
 			children = (
-				5A8B11D11ADD58C700849B7F /* SoundManager.h */,
-				5A8B11D21ADD58C700849B7F /* SoundManager.m */,
 				5A8B11AF1ADD564500849B7F /* AppDelegate.h */,
 				5A8B11B01ADD564500849B7F /* AppDelegate.m */,
 				5A8B11B21ADD564500849B7F /* ViewController.h */,
@@ -117,18 +112,7 @@
 				5A8B11B51ADD564500849B7F /* Main.storyboard */,
 				5A8B11B81ADD564500849B7F /* Images.xcassets */,
 				5A8B11BA1ADD564500849B7F /* LaunchScreen.xib */,
-				D8447F281ADD693D00A71099 /* Hey Ben1.mp3 */,
-				D8447F291ADD693D00A71099 /* Hey Ben2.mp3 */,
-				D8447F2A1ADD693D00A71099 /* Hey Ben3.mp3 */,
-				D8447F2B1ADD693D00A71099 /* Hey Ben4.mp3 */,
-				D8447F2C1ADD693D00A71099 /* Hey Ben5.mp3 */,
-				D8447F2D1ADD693D00A71099 /* Hey Ben6.mp3 */,
-				D8447F2E1ADD693D00A71099 /* Hey Ben7.mp3 */,
-				D8447F2F1ADD693D00A71099 /* Hey Ben8.mp3 */,
-				D8447F301ADD693D00A71099 /* Hey Ben9.mp3 */,
-				D8447F311ADD693D00A71099 /* Hey Ben10.mp3 */,
-				D8447F321ADD693D00A71099 /* Hey Ben11.mp3 */,
-				D8447F331ADD693D00A71099 /* Hey Ben12.mp3 */,
+				D8447F401ADD81A500A71099 /* heyBenMp3s */,
 				5A8B11AB1ADD564500849B7F /* Supporting Files */,
 			);
 			path = "Hey Ben";
@@ -158,6 +142,25 @@
 				5A8B11C61ADD564600849B7F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8447F401ADD81A500A71099 /* heyBenMp3s */ = {
+			isa = PBXGroup;
+			children = (
+				D8447F281ADD693D00A71099 /* Hey Ben1.mp3 */,
+				D8447F291ADD693D00A71099 /* Hey Ben2.mp3 */,
+				D8447F2A1ADD693D00A71099 /* Hey Ben3.mp3 */,
+				D8447F2B1ADD693D00A71099 /* Hey Ben4.mp3 */,
+				D8447F2C1ADD693D00A71099 /* Hey Ben5.mp3 */,
+				D8447F2D1ADD693D00A71099 /* Hey Ben6.mp3 */,
+				D8447F2E1ADD693D00A71099 /* Hey Ben7.mp3 */,
+				D8447F2F1ADD693D00A71099 /* Hey Ben8.mp3 */,
+				D8447F301ADD693D00A71099 /* Hey Ben9.mp3 */,
+				D8447F311ADD693D00A71099 /* Hey Ben10.mp3 */,
+				D8447F321ADD693D00A71099 /* Hey Ben11.mp3 */,
+				D8447F331ADD693D00A71099 /* Hey Ben12.mp3 */,
+			);
+			name = heyBenMp3s;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A8B11B41ADD564500849B7F /* ViewController.m in Sources */,
-				5A8B11D31ADD58C700849B7F /* SoundManager.m in Sources */,
 				5A8B11B11ADD564500849B7F /* AppDelegate.m in Sources */,
 				5A8B11AE1ADD564500849B7F /* main.m in Sources */,
 			);
