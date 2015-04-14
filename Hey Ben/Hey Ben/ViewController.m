@@ -8,8 +8,15 @@
 
 #import "ViewController.h"
 #import "SoundManager.h"
+#import <AudioToolbox/AudioToolbox.h>
+
+@import AVFoundation;
+
 
 @interface ViewController ()
+{
+    AVAudioPlayer *_audioPlayer;
+}
 
 @end
 
@@ -17,9 +24,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [SoundManager sharedManager].allowsBackgroundMusic = YES;
 
-    [[SoundManager sharedManager] prepareToPlay];
+    // Construct URL to sound file
+    NSString *path = [NSString stringWithFormat:@"%@/Hey Ben1 .mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
 
 }
 
@@ -29,8 +40,12 @@
 }
 - (IBAction)benTapped:(UIButton *)sender
 {
-    [[SoundManager sharedManager] playSound:@"Hey Ben1 " looping:NO];
+  
+    
+    [_audioPlayer play];
+
 
 }
+
 
 @end
