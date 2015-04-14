@@ -17,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+
+    [[SoundManager sharedManager] prepareToPlay];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,7 +29,8 @@
 }
 - (IBAction)benTapped:(UIButton *)sender
 {
-    
+    [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
+
 }
 
 @end
