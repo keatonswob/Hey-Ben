@@ -15,6 +15,7 @@
 		5A8B11BC1ADD564500849B7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B11BA1ADD564500849B7F /* LaunchScreen.xib */; };
 		5A8B11C81ADD564600849B7F /* Hey_BenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11C71ADD564600849B7F /* Hey_BenTests.m */; };
 		5A8B11D31ADD58C700849B7F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B11D21ADD58C700849B7F /* SoundManager.m */; };
+		D8447F231ADD5BC600A71099 /* Hey Ben1 .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8447F221ADD5BC600A71099 /* Hey Ben1 .mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		5A8B11C71ADD564600849B7F /* Hey_BenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hey_BenTests.m; sourceTree = "<group>"; };
 		5A8B11D11ADD58C700849B7F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		5A8B11D21ADD58C700849B7F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		D8447F221ADD5BC600A71099 /* Hey Ben1 .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Ben1 .mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				5A8B11B51ADD564500849B7F /* Main.storyboard */,
 				5A8B11B81ADD564500849B7F /* Images.xcassets */,
 				5A8B11BA1ADD564500849B7F /* LaunchScreen.xib */,
+				D8447F221ADD5BC600A71099 /* Hey Ben1 .mp3 */,
 				5A8B11AB1ADD564500849B7F /* Supporting Files */,
 			);
 			path = "Hey Ben";
@@ -207,6 +210,7 @@
 				5A8B11B71ADD564500849B7F /* Main.storyboard in Resources */,
 				5A8B11BC1ADD564500849B7F /* LaunchScreen.xib in Resources */,
 				5A8B11B91ADD564500849B7F /* Images.xcassets in Resources */,
+				D8447F231ADD5BC600A71099 /* Hey Ben1 .mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

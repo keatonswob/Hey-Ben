@@ -29,7 +29,7 @@
 }
 - (IBAction)benTapped:(UIButton *)sender
 {
-    [[SoundManager sharedManager] playSound:@"sound1" looping:NO];
+    [[SoundManager sharedManager] playSound:@"Hey Ben1 " looping:NO];
 
 }
 
